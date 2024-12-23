@@ -1,0 +1,12 @@
+prefix=c:/Users/USER/Downloads/Student Performance ML Project/myvenv/Library
+exec_prefix=c:/Users/USER/Downloads/Student Performance ML Project/myvenv/Library
+libdir=c:/Users/USER/Downloads/Student Performance ML Project/myvenv/Library/lib
+includedir=c:/Users/USER/Downloads/Student Performance ML Project/myvenv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
